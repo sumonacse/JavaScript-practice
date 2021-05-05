@@ -8,8 +8,8 @@ let person = {
 }
 
 console.log(person);
-console.log(person.age);
-console.log(person.friend);
-console.log(person.friend[0]);
-console.log(person.isMarried);
+console.log("Person Age: "+person.age);
+console.log("Person friends list: "+person.friend);
+console.log("First friend: "+person.friend[0]);
+console.log("Married status: "+person.isMarried);
 console.log("Name is: "+person.name);
